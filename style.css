@@ -413,7 +413,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .product-card-large{
-  box-shadow: var(--clr-shadow-md);
+  box-shadow: var(--clr-shadow-sm);
   transform: translateY(-2px);
 }
 
