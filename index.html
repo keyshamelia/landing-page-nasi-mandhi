@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nasi Mandhi – Restoran Arab Authentic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="btn-icon" aria-label="Menu">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+          <rect y="4" width="22" height="2" rx="1" fill="currentColor"/>
+          <rect y="10" width="16" height="2" rx="1" fill="currentColor"/>
+          <rect y="16" width="22" height="2" rx="1" fill="currentColor"/>
+        </svg>
+      </button>
+      <h1 class="site-logo">Nasi Mandhi</h1>
+      <button class="btn-icon" aria-label="Cari">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <circle cx="8.5" cy="8.5" r="5.75" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M13 13L17.5 17.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+<!-- HERO BANNER -->
+    <section class="hero-banner">
+      <div class="hero-image-wrap">
+        <img
+          src="../assets/hero-banner.png"
+          alt="Nasi Arab Mandhi"
+          class="hero-image"
+        />
+        <div class="hero-gradient"></div>
+      </div>
+    </section>
+
+<!-- INFO RESTO -->
+    <section class="restaurant-info">
+      <div class="container">
+        <div class="resto-card">
+          <div class="resto-pin">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M8 1.5C5.515 1.5 3.5 3.515 3.5 6c0 3.75 4.5 8.5 4.5 8.5S12.5 9.75 12.5 6c0-2.485-2.015-4.5-4.5-4.5Z" stroke="#C8441B" stroke-width="1.4" fill="none"/>
+              <circle cx="8" cy="6" r="1.5" stroke="#C8441B" stroke-width="1.4"/>
+            </svg>
+          </div>
+          <div class="resto-details">
+            <p class="resto-name">Nasi Arab Tasneem – By Aqiqah Nurul Hayat</p>
+            <p class="resto-hours">
+              <span class="badge-open">Buka hari ini</span>
+              08:00 – 22:00
+            </p>
+          </div>
+          <button class="btn-chevron" aria-label="Detail">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+<!-- ORDER TYPE TOGGLE -->
+    <section class="order-toggle-section">
+      <div class="container">
+        <div class="order-row">
+          <span class="order-label">Tipe Pesanan</span>
+          <div class="order-tabs" role="group" aria-label="Tipe Pesanan">
+            <button class="order-tab active" data-tab="pickup">Pick Up</button>
+            <button class="order-tab" data-tab="delivery">Delivery</button>
+          </div>
+        </div>
+        <button class="btn-order-now">Pesan Sekarang</button>
+      </div>
+    </section>
+
+<!-- MENU CATEGORY TABS -->
+    <nav class="category-nav" aria-label="Kategori Menu">
+      <div class="category-scroll">
+        <a href="#semua" class="category-tab active">Semua Menu</a>
+        <a href="#paket-nampan" class="category-tab">Paket Nampan</a>
+        <a href="#paket-personal" class="category-tab">Paket Personal</a>
+        <a href="#paket-extra" class="category-tab">Paket Extra</a>
+      </div>
+    </nav>
+<section class="menu-section" id="semua"></section>
+<!-- PAKET NAMPAN -->
+    <section class="menu-section" id="paket-nampan">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Paket Nampan</h2>
+            <p class="section-subtitle">Porsi Sultan untuk Kebersamaan Keluarga</p>
+          </div>
+          <a href="#" class="link-see-all">Lihat<br>Semua</a>
+        </div>
+      </div>
+
+      <div class="card-scroll-wrap">
+        <div class="card-scroll">
+
+          <article class="product-card-large">
+            <div class="product-card-img-wrap">
+              <img
+                src="../assets/ayam-oven-nampan.png"
+                alt="Mandi Ayam Oven"
+                class="product-card-img"
+              />
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-name">Ayam Oven</h3>
+              <p class="product-desc">3 Porsi Nasi Mandhi • 3 Potong Ayam</p>
+              <div class="product-footer">
+                <span class="product-price">Rp 75.000</span>
+                <button class="btn-add" aria-label="Tambah Mandi Ayam Oven">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card-large">
+            <div class="product-card-img-wrap">
+              <img
+                src="../assets/kabab-sapi-nampan.png"
+                alt="Kabab Sapi"
+                class="product-card-img"
+              />
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-name">Kabab Sapi</h3>
+              <p class="product-desc">3 Porsi Nasi Mandhi • 3 Tusuk Kabab</p>
+              <div class="product-footer">
+                <span class="product-price">Rp 81.000</span>
+                <button class="btn-add" aria-label="Tambah Mandi Kambing">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card-large">
+            <div class="product-card-img-wrap">
+              <img
+                src="../assets/kambing-oven-nampan.png"
+                alt="Mandi Kambing"
+                class="product-card-img"
+              />
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-name">Kambing Oven</h3>
+              <p class="product-desc">3 Porsi Nasi Mandhi • 3 Porsi Kambing</p>
+              <div class="product-footer">
+                <span class="product-price">Rp 117.000</span>
+                <button class="btn-add" aria-label="Tambah Mandi Kambing">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+           <article class="product-card-large">
+            <div class="product-card-img-wrap">
+              <img
+                src="../assets/ayam-oven-5.png"
+                alt="Mandi Ayam Oven"
+                class="product-card-img"
+              />
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-name">Ayam Oven</h3>
+              <p class="product-desc">5 Porsi Nasi Mandhi • 5 Potong Ayam</p>
+              <div class="product-footer">
+                <span class="product-price">Rp 125.000</span>
+                <button class="btn-add" aria-label="Tambah Mandi Ayam Oven">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card-large">
+            <div class="product-card-img-wrap">
+              <img
+                src="../assets/kabab-sapi-5.png"
+                alt="Kabab Sapi"
+                class="product-card-img"
+              />
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-name">Kabab Sapi</h3>
+              <p class="product-desc">5 Porsi Nasi Mandhi • 5 Tusuk Kabab</p>
+              <div class="product-footer">
+                <span class="product-price">Rp 135.000</span>
+                <button class="btn-add" aria-label="Tambah Mandi Kambing">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card-large">
+            <div class="product-card-img-wrap">
+              <img
+                src="../assets/kambing-oven-nampan.png"
+                alt="Kambing Oven"
+                class="product-card-img"
+              />
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-name">Kambing Oven</h3>
+              <p class="product-desc">5 Porsi Nasi Mandhi • 5 Porsi Kambing</p>
+              <div class="product-footer">
+                <span class="product-price">Rp 195.000</span>
+                <button class="btn-add" aria-label="Tambah Mandi Kambing">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+          
+
+        </div>
+      </div>
+    </section>
+
+<!-- PAKET PERSONAL -->
+    <section class="menu-section" id="paket-personal">
+      <div class="container">
+        <h2 class="section-title">Paket Personal</h2>
+
+        <ul class="product-list">
+
+          <li class="product-list-item">
+            <img
+              src="../assets/ayam-personal.png"
+              alt="Ayam Oven"
+              class="product-list-img"
+            />
+            <div class="product-list-info">
+              <h3 class="product-name">Ayam Oven</h3>
+              <p class="product-desc"> 1 Porsi Nasi Mandhi • 1 Potong Ayam</p>
+              <span class="product-price">Rp 25.000</span>
+            </div>
+            <button class="btn-tambah">+ Tambah</button>
+          </li>
+
+          <li class="product-list-item">
+            <img
+              src="../assets/kabab-personal.png"
+              alt="Kabab Sapi"
+              class="product-list-img"
+            />
+            <div class="product-list-info">
+              <h3 class="product-name">Kabab Sapi</h3>
+              <p class="product-desc"> 1 Porsi Nasi Mandhi • 1 Tusuk Kabab</p>
+              <span class="product-price">Rp 27.000</span>
+            </div>
+            <button class="btn-tambah">+ Tambah</button>
+          </li>
+
+          <li class="product-list-item">
+            <img
+              src="../assets/kambing-personal.png"
+              alt="Kambing Oven"
+              class="product-list-img"
+            />
+            <div class="product-list-info">
+              <h3 class="product-name">Kambing Oven</h3>
+              <p class="product-desc"> 1 Porsi Nasi Mandhi • 1 Porsi Kambing</p>
+              <span class="product-price">Rp 39.000</span>
+            </div>
+            <button class="btn-tambah">+ Tambah</button>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+<!-- PAKET EXTRAAA -->
+    <section class="menu-section" id="paket-extra">
+      <div class="container">
+        <h2 class="section-title">Paket Extra</h2>
+
+        <ul class="product-list">
+
+          <li class="product-list-item">
+            <img
+              src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=200&q=80"
+              alt="Nasi + Sambal"
+              class="product-list-img"
+            />
+            <div class="product-list-info">
+              <h3 class="product-name">Nasi + Sambal</h3>
+              <p class="product-desc">Tambahan • Nasi + Sambal</p>
+              <span class="product-price">Rp 12.000</span>
+            </div>
+            <button class="btn-tambah">+ Tambah</button>
+          </li>
+
+          <li class="product-list-item">
+            <img
+              src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=200&q=80"
+              alt="Ayam Oven Extra"
+              class="product-list-img"
+            />
+            <div class="product-list-info">
+              <h3 class="product-name">Ayam Oven</h3>
+              <p class="product-desc">1 Potong Ayam</p>
+              <span class="product-price">Rp 15.000</span>
+            </div>
+            <button class="btn-tambah">+ Tambah</button>
+          </li>
+
+          <li class="product-list-item">
+            <img
+              src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=200&q=80"
+              alt="Kabab Sapi Extra"
+              class="product-list-img"
+            />
+            <div class="product-list-info">
+              <h3 class="product-name">Kabab Sapi</h3>
+              <p class="product-desc">Tusuk Kabab Sapi</p>
+              <span class="product-price">Rp 19.000</span>
+            </div>
+            <button class="btn-tambah">+ Tambah</button>
+          </li>
+
+          <li class="product-list-item">
+            <img
+              src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=200&q=80"
+              alt="Kabab Sapi Extra"
+              class="product-list-img"
+            />
+            <div class="product-list-info">
+              <h3 class="product-name">Sambal</h3>
+              <p class="product-desc">1 Cup Sambal</p>
+              <span class="product-price">Rp 3.000</span>
+            </div>
+            <button class="btn-tambah">+ Tambah</button>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PAYMENT SECTION ============ -->
+    <section class="payment-section">
+      <div class="container">
+        <h2 class="section-title text-center">Metode Pembayaran Aman</h2>
+        <p class="section-subtitle text-center">Beragam pilihan pembayaran untuk kemudahan Anda</p>
+        <div class="payment-methods">
+          <div class="payment-method">
+            <div class="payment-icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <rect x="2" y="2" width="24" height="24" rx="4" stroke="#C8441B" stroke-width="1.6"/>
+                <path d="M7 14h14M11 10l-4 4 4 4M17 10l4 4-4 4" stroke="#C8441B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="payment-name">QRIS</span>
+          </div>
+          <div class="payment-method">
+            <div class="payment-icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <rect x="2" y="6" width="24" height="16" rx="3" stroke="#C8441B" stroke-width="1.6"/>
+                <path d="M2 11h24" stroke="#C8441B" stroke-width="1.6"/>
+                <rect x="5" y="15" width="6" height="3" rx="1" fill="#C8441B"/>
+              </svg>
+            </div>
+            <span class="payment-name">Bank</span>
+          </div>
+          <div class="payment-method">
+            <div class="payment-icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <circle cx="14" cy="14" r="11" stroke="#C8441B" stroke-width="1.6"/>
+                <path d="M10 14c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4" stroke="#C8441B" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="14" cy="14" r="1.5" fill="#C8441B"/>
+              </svg>
+            </div>
+            <span class="payment-name">Gopay</span>
+          </div>
+          <div class="payment-method">
+            <div class="payment-icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <rect x="2" y="2" width="24" height="24" rx="5" stroke="#C8441B" stroke-width="1.6"/>
+                <path d="M9 14h10M14 9v10" stroke="#C8441B" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="payment-name">Shopee</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+<!-- cart -->
+  <button class="floating-cart" aria-label="Keranjang belanja">
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+      <path d="M2 2h2.5L6 13h10.5l1.5-8H7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="8.5" cy="17.5" r="1.5" fill="currentColor"/>
+      <circle cx="15.5" cy="17.5" r="1.5" fill="currentColor"/>
+    </svg>
+    <span class="cart-badge">2</span>
+  </button>
+
+  <script>
+// ORDER TYPE TOOGLE
+document.querySelectorAll('.order-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.order-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+      });
+    });
+
+// CATEGORY TABS
+    document.querySelectorAll('.category-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+      });
+    });
+
+// ADD TO CART
+    let cartCount = 2;
+    document.querySelectorAll('.btn-add, .btn-tambah').forEach(btn => {
+      btn.addEventListener('click', () => {
+        cartCount++;
+        document.querySelector('.cart-badge').textContent = cartCount;
+        btn.classList.add('added');
+        setTimeout(() => btn.classList.remove('added'), 300);
+      });
+    });
+  </script>
+
+</body>
+</html>
