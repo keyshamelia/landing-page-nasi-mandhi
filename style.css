@@ -78,7 +78,6 @@ a { text-decoration: none; color: inherit; }
 
 /* Typography Helpers  */
 .section-title {
-  font-family: var(--ff-display);
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--clr-text-primary);
@@ -759,3 +758,8 @@ a { text-decoration: none; color: inherit; }
 
   .product-list { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* MODAL OVERLAY TOGGLE */
+.modal-overlay          { display: none; }
+.modal-overlay.is-active { display: flex; }
+body.modal-open         { overflow: hidden; }
